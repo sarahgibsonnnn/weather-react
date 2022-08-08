@@ -1,0 +1,16 @@
+.Search h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #3c3c3b;
+  }
+  
+  .Search input {
+    padding: 10px;
+    margin: 0em 5px;
+  }
+  
+  .Search li {
+    text-align: left;
+    color: #3c3c3b
+  }
+  
