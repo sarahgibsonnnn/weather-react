@@ -5,15 +5,18 @@ import Search from './Search'
 function App() {
   return (
     <div className="App">
+      <content>
       <h1>Weather Search Engine</h1>
       <Search />
+      </content>
       <div className="repository-link">
         
-       <a href='https://github.com/sarahgibsonnnn/weather-react' target="_blank" rel="noopener noreferrer" title="Open GitHub Repository" >
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" />
-        </a>
-      </div>
-    
+        <p> This app was coded by <a href='https://agitated-wilson-c1607b.netlify.app/' target="_blank" rel="noopener noreferrer"> Sarah Gibson </a> and is open-sourced on
+         <a href='https://github.com/sarahgibsonnnn/weather-react' target="_blank" rel="noopener noreferrer" title="Open GitHub Repository" >
+         <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" />
+         </a>
+        </p>
+       </div>
     </div>
   );
 }
