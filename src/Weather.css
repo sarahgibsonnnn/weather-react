@@ -13,6 +13,26 @@
       
 }
 
+.Weather .search {
+    margin-bottom: 20px;
+}
+
+.Weather .search h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #3c3c3b;
+}
+    
+.Weather .search input {
+    padding: 10px;
+}
+    
+.Weather .search li {
+    text-align: left;
+    color: #3c3c3b
+}
+    
+
 .Weather li {
     list-style: none;
     display: flex;
