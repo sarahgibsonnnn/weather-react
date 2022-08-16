@@ -52,8 +52,14 @@ function Search() {
   return (
     <div className="Search">
       <form onSubmit={displayWeather}>
-        <input type="search" onChange={updateCity} />
-        <input type="submit" onSubmit={displayWeather} />
+        <div className='row'>
+          <div className='col-9'>
+            <input type="search" onChange={updateCity} placeholder='Search..' className='form-control'/>
+          </div>
+          <div className='col-3'>
+            <input type="submit" className='btn btn-primary w-100' onSubmit={displayWeather} />
+          </div>
+        </div>
       </form>
       <ul>
         {forecast.map((i, index) => {

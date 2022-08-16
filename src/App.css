@@ -1,15 +1,7 @@
-.App .search-body {
-  font-family: sans-serif;
-  text-align: center;
-  background-color: white;
-  padding: 50px 100px;
-  border-radius: 10px;
-  margin: 50px 0 10px 0;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  display: flex;
-  flex-direction: column;
+.App {
+  max-width: 600px;
+  margin: 0 auto;
 }
-
 .App h1 {
   font-size: 50px;
   color: #3c3c3b;
@@ -36,13 +28,25 @@
   justify-content: flex-start;
 }
 
-.App p {
+.App footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 10px
+  gap: 10px;
+  font-size: 14px;
+  color: #707070
+
 }
+
+.App footer a {
+  color: #3c3c3b
+}
+
+.App footer a:hover{
+  text-decoration: underline;
+}
+
 
   .App a img:hover {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
