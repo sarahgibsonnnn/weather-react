@@ -1,0 +1,29 @@
+.WeatherInfo .icon {
+    width: 20px;
+    height: 20px
+}
+
+
+.WeatherInfo li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap:10px;
+    margin: 10px 0;
+}
+
+.WeatherInfo ul {
+    padding: 0;
+    margin: 0;
+}
+
+.WeatherInfo .weather-details {
+    text-align: right;
+    padding: 15px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%
+}
