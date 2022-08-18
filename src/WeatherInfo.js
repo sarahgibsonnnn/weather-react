@@ -2,6 +2,7 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import precipitationIcon from './icons/water.svg'
 import windIcon from './icons/windmill.svg'
+import WeatherIcon from "./WeatherIcon";
 import './WeatherInfo.css'
 
 
@@ -20,8 +21,8 @@ export default function WeatherInfo(props) {
                 <h3>
                     <FormattedDate date = {props.data.time}></FormattedDate>
                 </h3>
-                <span>
-                    <img src={props.data.icon} alt={props.data.description}></img>
+                <span className="icon-desc">
+                    <WeatherIcon code = {props.data.iconCode} alt = {props.data.description}/>
                     <span className = "text-capitalize">
                         {props.data.description}
                     </span>

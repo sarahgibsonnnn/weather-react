@@ -15,7 +15,7 @@ function Weather(props) {
                 city: response.data.name,
                 temperature: Math.round(response.data.main.temp),
                 description: response.data.weather[0].main,
-                icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+                iconCode: response.data.weather[0].icon,
                 windSpeed: Math.round(response.data.wind.speed),
                 windDirection: response.data.wind.deg,
                 humidity: response.data.main.humidity,
