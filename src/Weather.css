@@ -36,3 +36,7 @@
     text-align: left;
     color: #3c3c3b
 }
+
+.Weather .bth {
+    min-width: 80px
+}
