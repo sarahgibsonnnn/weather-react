@@ -3,6 +3,7 @@ import FormattedDate from "./FormattedDate";
 import precipitationIcon from './icons/water.svg'
 import windIcon from './icons/windmill.svg'
 import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 import './WeatherInfo.css'
 
 
@@ -32,16 +33,10 @@ export default function WeatherInfo(props) {
             </div>
             <div className="col-6">
                 <div className='weather-details'>
-                <h3>
-                    <span>
-                        {props.data.temperature}
-                    <a href="#" >°C</a> /
-                    <a href="#" >°F</a>
-                    </span>
-                </h3>
+                    <WeatherTemperature celcius = {props.data.temperature}/>
                 <ul>
-                    <li>  <img className = "icon" src={precipitationIcon}></img> {props.data.humidity} %</li>             
-                    <li> <img className = "icon" src={windIcon}></img> {props.data.windSpeed} mph</li>
+                    <li>  <img className = "icon" src={precipitationIcon} alt="Precipitation"></img> {props.data.humidity} %</li>             
+                    <li> <img className = "icon" src={windIcon} alt="Wind"></img> {props.data.windSpeed} mph</li>
                 </ul>
                 </div>
                 

@@ -13,6 +13,11 @@
       
 }
 
+.Weather h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
 .Weather .search {
     margin-bottom: 20px;
 }

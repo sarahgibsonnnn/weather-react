@@ -9,7 +9,6 @@ function Weather(props) {
 
 
     function findForecast(response) {
-        console.log(response);
         return (
             setWeatherData({
                 city: response.data.name,
