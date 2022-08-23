@@ -1,8 +1,13 @@
 .WeatherTemperature {
-    font-size: 24px
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
 }
 
-.WeatherTemperature a {
-    color: #c1c1c1;
-    font-weight: normal
+.WeatherTemperature .unit {
+    font-size: 16px;
+    margin: 8px 5px
 }

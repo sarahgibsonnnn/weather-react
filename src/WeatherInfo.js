@@ -23,7 +23,7 @@ export default function WeatherInfo(props) {
                     <FormattedDate date = {props.data.time}></FormattedDate>
                 </h3>
                 <span className="icon-desc">
-                    <WeatherIcon code = {props.data.iconCode} alt = {props.data.description}/>
+                    <WeatherIcon code = {props.data.iconCode} alt = {props.data.description} size = {50}/>
                     <span className = "text-capitalize">
                         {props.data.description}
                     </span>
@@ -36,7 +36,7 @@ export default function WeatherInfo(props) {
                     <WeatherTemperature celcius = {props.data.temperature}/>
                 <ul>
                     <li>  <img className = "icon" src={precipitationIcon} alt="Precipitation"></img> {props.data.humidity} %</li>             
-                    <li> <img className = "icon" src={windIcon} alt="Wind"></img> {props.data.windSpeed} mph</li>
+                    <li> <img className = "icon" src={windIcon} alt="Wind"></img> {props.data.windSpeed} km/h</li>
                 </ul>
                 </div>
                 
