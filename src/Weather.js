@@ -58,7 +58,7 @@ function Weather(props) {
             <form className = "search" onSubmit={handleSubmit}>
                 <div className='row'>
                 <div className='col-9'>
-                    <input type="search" placeholder='Search..' className='form-control' onChange={updateCity}/>
+                    <input type="search" placeholder='Search..' className='form-control w-100' onChange={updateCity}/>
                 </div>
                 <div className='col-3'>
                     <input type="submit" className='btn btn-primary w-100' />
